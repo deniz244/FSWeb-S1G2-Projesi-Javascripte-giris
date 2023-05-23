@@ -171,13 +171,13 @@ Aşağıdakileri cocukSarkisi fonksiyonunda yap:
 
 function cocukSarkisi(n) {
 
-  let i=n;
-  
-  while(i!=1){
-    i--
-  }
-
   return (n + " küçük maymun yatakta zıplamış, biri düşüp başını çarpmış, Anne doktoru aramış, Doktor çok kızmış: Bir daha yatakta zıplamak yok!")
+}
+
+const etuttekiMaymunlukSayisi = 4;
+
+for (let i = 0; i < etuttekiMaymunlukSayisi; i++) {
+  console.log("cocukSarkisi", cocukSarkisi(etuttekiMaymunlukSayisi - i));
 }
 
 /* Görev 6 : Not Hesaplayıcı */
