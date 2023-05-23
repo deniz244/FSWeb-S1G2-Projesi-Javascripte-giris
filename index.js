@@ -130,6 +130,24 @@ function oyun(oyuncu, bilgisayar) {
 Örn: console.log(oyun("Makas",bilgisayarinSecimi()))
 */
 
+function bilgisayarinSecimi() {
+   const secim = Math.random();
+   if(secim < 0.34){
+    return "Taş";
+   }
+
+   else if(secim <= 0.67){
+    return "Kağıt";
+   }
+
+   else{
+    return "Makas";
+   }
+}
+
+//console.log("bilgisayar test", bilgisayarinSecimi());
+console.log(oyun("Makas",bilgisayarinSecimi()))
+
 /* Görev 4 : Metrik Dönüştürücü */
 
 //Görev 4a - Kilometreden Mil
