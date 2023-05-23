@@ -174,10 +174,10 @@ function cocukSarkisi(n) {
   return (n + " küçük maymun yatakta zıplamış, biri düşüp başını çarpmış, Anne doktoru aramış, Doktor çok kızmış: Bir daha yatakta zıplamak yok!")
 }
 
-const etuttekiMaymunlukSayisi = 4;
+const msay = 5;
 
-for (let i = 0; i < etuttekiMaymunlukSayisi; i++) {
-  console.log("cocukSarkisi", cocukSarkisi(etuttekiMaymunlukSayisi - i));
+for (let i = 0; i < msay; i++) {
+  console.log("cocukSarkisi", cocukSarkisi(msay - i));
 }
 
 /* Görev 6 : Not Hesaplayıcı */
